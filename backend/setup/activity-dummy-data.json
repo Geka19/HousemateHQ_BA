@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Game Night",
+      "description": "A fun night of board games and snacks!",
+      "place": "livingroom",
+      "time": "19:00",
+      "date": "2025-04-05"
+    },
+    {
+      "title": "Study Group",
+      "description": "Group study session for the upcoming exam.",
+      "place": "kitchen",
+      "time": "14:00",
+      "date": "2025-04-10"
+    },
+    {
+      "title": "BBQ Party",
+      "description": "Outdoor BBQ for all residents!",
+      "place": "outside",
+      "time": "18:30",
+      "date": "2025-04-15"
+    }
+  ]

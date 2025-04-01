@@ -1,0 +1,23 @@
+[
+    {
+      "fullName": "Alice Johnson",
+      "course": "BWU",
+      "building": "A",
+      "room": "101",
+      "friends": ["PLACEHOLDER_USER_ID_1", "PLACEHOLDER_USER_ID_2"]
+    },
+    {
+      "fullName": "Bob Smith",
+      "course": "Mechanical Engineering",
+      "building": "B",
+      "room": "202",
+      "friends": ["PLACEHOLDER_USER_ID_3"]
+    },
+    {
+      "fullName": "Charlie Brown",
+      "course": "Electrical Engineering",
+      "building": "C",
+      "room": "303",
+      "friends": []
+    }
+  ]
