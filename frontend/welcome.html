@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        header{
+            height: 300px;
+            margin-top:10%;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+        }
+        main{
+            margin-left:10%;
+            width:80%;
+            margin-right:10%;
+            display: inline-block;
+        }
+        main>button{
+            width:100%;
+            margin-bottom: 10%;
+            height: 3em;
+        }
+        a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/sit.logo.svg" class="welcome_logo">
+            <!--idk why this svg doesnt work.. oh well, we're gonna replace it with the actual stuff-->
+        </div>
+        <div>
+            <h1>Welcome to:</h1>
+            <!--Here goes logo-->
+            <!--Here goes paper plane-->
+        </div>
+        <div> <!--This stays empty--></div>
+    </header>
+    <main>
+        <button type="button"><a href="login.html">Login</a></button>
+        <button type="button"><a href="signup.html">Sign up</a></button>
+    </main>
+</body>
+</html>

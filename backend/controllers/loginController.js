@@ -1,4 +1,3 @@
-const Login = require("../models/loginSchema");
 const User = require("../models/userSchema");
 
 // Create a new user (register)
