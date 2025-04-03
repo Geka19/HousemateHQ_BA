@@ -9,7 +9,7 @@ app.use(express.json());
 connectDB();
 
 // Routes: Link each endpoint to its respective route
-app.use("/api/login", require("./routes/loginRoutes"));
+app.use("/api/auth", require("./routes/loginRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/activities", require("./routes/acitivityRoutes"));
 

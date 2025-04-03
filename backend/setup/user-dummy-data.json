@@ -6,12 +6,15 @@
       "room": "101",
       "friends": ["PLACEHOLDER_USER_ID_1", "PLACEHOLDER_USER_ID_2"]
     },
+
     {
       "fullName": "Bob Smith",
       "course": "Mechanical Engineering",
       "building": "B",
       "room": "202",
-      "friends": ["PLACEHOLDER_USER_ID_3"]
+      "friends": ["PLACEHOLDER_USER_ID_3"],
+      "email": "testuser1@example.com",
+      "password": "password123"
     },
     {
       "fullName": "Charlie Brown",

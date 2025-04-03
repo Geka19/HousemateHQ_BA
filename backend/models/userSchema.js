@@ -1,12 +1,12 @@
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
-    //idk why there's two id's i fix later
-    userId: { type: mongoose.Schema.Types.ObjectId, auto: true  },
+    email: { type: String, required: true, unique: true },
+    password: { type: String, required: true },
     fullName: { type: String, required: true },
-    course: { type: String, required: true },
-    building: { type: String, required: true },
-    room: { type: String, required: true },
+    course: { type: String },
+    building: { type: String},
+    room: { type: String},
     friends: [
         {
             type: mongoose.Schema.Types.ObjectId,
