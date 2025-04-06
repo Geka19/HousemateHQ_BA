@@ -31,36 +31,46 @@
             background-color:brown;
             height: 50px;
         }
-        .activity_friends_left{
-            background-color:blanchedalmond;
-        }
-        .activity_friends_right{
-            background-color: aquamarine;;
-        }
         main{
-            margin-left: 10%;
-            margin-right: 10%;
+            margin-top:10%;
+            margin-left: 5%;
+            margin-right: 5%;
+            text-align: center;
         }
-        main>*{
-            background-color: burlywood;
+        form>*{
+            width:100%;
+            margin-bottom: 10%;
+            line-height: 3em;
+        }
+        form{
+            margin-top:10%;
+            background-color: bisque;
+            padding:5%;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div class="activity_friends_left">
-            <p>Activities</p>
-        </div>
-        <div class="activity_friends_right">
-            <p>Friends</p>
-        </div>
-    </header>
     <main>
-        <div>
-            <p>boop</p>
-        </div>
+        <h1>Add new activity</h1>
+        <form action="newActivity.php" method="post">
+            <input type="text" placeholder="Title" name="title" required>
+            <input type="text" placeholder="Description" name="description" required>
+            <div>
+                <input type="radio" id="stua" name="sted" value="stua">
+                <label for="stua">stua</label>
+                <input type="radio" id="kjøkken" name="sted" value="kjøkken">
+                <label for="kjøkken">kjøkken</label>
+                <input type="radio" id="inne" name="sted" value="inne">
+                <label for="inne">inne</label>
+                <input type="radio" id="ute" name="sted" value="ute">
+                <label for="ute">ute</label>
+            </div>
+            <input type="date" required>
+            <input type="time" required>
 
-       
+           
+            <a href="activities.html"><button type="submit" class="button_form">Login</button></a>
+        </form>
     </main>
     <footer>
         <nav>

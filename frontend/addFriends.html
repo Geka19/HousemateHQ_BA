@@ -11,16 +11,6 @@
             display: flex;
             flex-direction: column;
         }
-        header{
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            text-align: center;
-            margin-bottom: 5%;
-        }
-        header>*{
-            height: 8vh;
-            padding-top: 10%;
-        }
         nav{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -32,103 +22,74 @@
             background-color:brown;
             height: 50px;
         }
-        .activity_friends_left{
-            background-color:blanchedalmond;
+        .profile{
+            margin-left: 5%;
+            margin-right:5%;
+            margin-top:8%;
+            align-items: center;
+            border: 1px solid black;
+            padding:5%;
         }
-        .activity_friends_right{
-            background-color: aquamarine;;
+        .profile_images>img{
+            width:70%;
+            display: block;
+            margin: 0 auto;
         }
-        main{
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-        main>*{
-            background-color: burlywood;
-        }
-        .profile_info{
-            display: grid;
-            grid-template-columns: 1fr;
-        }
-        .profile_info_status{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            text-align: center;
-        }
-        .status{
-            background-color:aquamarine;
-            border-radius: 10%;
-            border: solid 1px black;
+        .profile_info_bio{
+            margin-top:10%;
+            max-width: 80%;
+            margin-left:7%;
+            padding: 2%;
+            border: 1px solid black;
+            border-radius: 5%;
         }
         .profile_info_name{
             display: grid;
-            grid-template-columns: 1fr 2fr;
+            grid-template-columns: 1fr 3fr;
+            margin-top:5%;
         }
-        .p_small{
-            line-height: 0.3;
+        .profile_add_button{
+            margin-top:15%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
         }
-        .profile_pic{
-            background-color: brown;
-            height:80px;
-            width:80px;
-            margin-left:10%;
-            border-radius: 50%;
+        .profile_add_button>*{
+            width:70%;
+            display: block;
+            margin: 0 auto;
         }
-        .profile_images {
-            display: flex;
-        }
-        .profile_images > .imgbox {
-            flex: 1;
-            max-height: 100px; 
-            overflow: hidden;
-        }
-
-        .profile_images > .imgbox > img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover; /* Ensures images scale and crop correctly */
-        }
-
-    
     </style>
 </head>
 <body>
-    <header>
-        <div class="activity_friends_left">
-            <a href="activities.html"><p>Activities</p></a>
-        </div>
-        <div class="activity_friends_right">
-            <a href="addFriends.html"><p>Friends</p></a>
-        </div>
-    </header>
     <main>
-        <div>
+        <div class="profile">
             <div class="profile_images">
-                <div class="imgbox"><img src="img/testimg1.jpg"></div>
-                <div class="imgbox"><img src="img/testimg2.jpg"></div>
-                <div class="imgbox"><img src="img/testimg3.jpg"></div>
+                <!--Missing functionality of click to change picture i imagine this can be done with onclick function-->
+                <img src="img/testimg1.jpg">
+                <!--
+                 <img src="img/testimg2.jpg">
+                  <img src="img/testimg3.jpg">
+                -->
             </div>
             <div class="profile_info">
-                <div class="profile_info_status">
-                    <div><!--this stays empty--></div>
-                    <div><!--this stays empty--></div>
-                    <div><!--this stays empty--></div>
-                    <div>
-                        <p class="status">Active</p>
-                    </div>
-                </div>
                 <div class="profile_info_name">
-                    <div>
-                        <section class="profile_pic"></section>
-                    </div>
                     <div>
                         <p>Name Namerson</p>
                         <p class="p_small">linje</p>
                         <p class="p_small">bygg</p>
                         <p class="p_small">rom</p>
                     </div>
+                    <div class="profile_info_bio">
+                        <p>Once upon a time there was a lovely princess. But she had an enchantment upon her of a fearful
+                            sort, which could only be broken by Love's first kiss. She was locked away in a castle hrek
+                            </p>
+                    </div>
                 </div>
             </div>
-           
+        </div>
+        <div class="profile_add_button">
+            <button>Next Friend</button>
+            <button>Add friend</button>
         </div>
 
        

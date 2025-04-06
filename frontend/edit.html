@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        body{
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+        .profile_images{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            overflow: hidden;
+        }
+        .profile_images>img{
+            width:100%;
+            opacity: 0.6;
+            transition: 0.5s;
+        }
+        .profile_images>img:hover{
+            width:120%;
+            transform:scale(1.2);
+            opacity: 1;
+            z-index: 1;
+        }
+        .profile_info{
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+            margin-top: 10%;
+        }
+        .profile_info>*{
+            margin-bottom: 5%;
+        }
+        .profile_info_status{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            text-align: center;
+        }
+        .status{
+            background-color:aquamarine;
+            padding:2%;
+            border-radius: 10%;
+            border: solid 1px black;
+        }
+        .profile_info_name{
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            align-items: center;
+        }
+        .p_small{
+            line-height: 0.3;
+        }
+        .profile_pic{
+            background-color: brown;
+            height:100px;
+            width:100px;
+            border-radius: 50%;
+            margin-left:25%;
+        }
+        .profile_info_bio{
+            margin-top:10%;
+            max-width: 80%;
+            margin-left:7%;
+            padding: 2%;
+            border: 1px solid black;
+            border-radius: 5%;
+        }
+        nav{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            position: sticky;
+            text-align: center;
+        }
+        footer{
+            margin-top: auto;
+            background-color:brown;
+            height: 50px;
+        }
+        .profile_info_text{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <!--ngl this logic is prolly gonna have to be transformed into a form for saving-->
+        <div class="profile_info">
+            <div class="profile_info_name">
+                <div><!--empty div--></div>
+                <div>
+                    <div>
+                        <section class="profile_pic"></section>
+                    </div>
+                    <div>
+                        <p>Name Namerson</p>
+                    </div>
+                </div>
+                <div><!--empty div--></div>
+            </div>
+            <div class="profile_images">
+                <img src="img/testimg1.jpg">
+                <img src="img/testimg2.jpg" >
+                <img src="img/testimg3.jpg">
+            </div>
+            <div class="profile_info_text">
+                <div>
+                    <p class="p_small">linje</p>
+                    <p class="p_small">bygg</p>
+                    <p class="p_small">rom</p>
+                </div>
+                <div><!--empty div--></div>
+            </div>
+            <!--Here should be a limit to how many words.-->
+            <div class="profile_info_bio">
+                <p>Once upon a time there was a lovely princess. But she had an enchantment upon her of a fearful
+                    sort, which could only be broken by Love's first kiss. She was locked away in a castle guarded by a terrible fire breathing dragon. Many brave knights had attempted to free her from this dreadful prison, but none prevailed. She waited in the dragon's keep in the highest room of the tallest tower for her true love and true love's first kiss. Like that's ever going to happen. What a loony. Shrek
+                    </p>
+            </div>
+            <div>
+                <a href="index.html"><button type="submit">Save</button></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <nav>
+            <a href="activities.html">PIC A</a>
+            <a href="index.html">ME PIC</a>
+            <a href="addFriends.html">PLUS UTRA</a>
+            <a href="settings.html">SETTIG</a>
+        </nav>
+    </footer>
+</body>
+</html>
