@@ -16,7 +16,7 @@ body{
 footer{
     margin-top: auto;
     background-color: var(--main_blue);
-    height: 50px;
+    height: 100%;;
 }
 nav>a{
     padding-top: 10%;

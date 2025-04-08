@@ -19,16 +19,24 @@
             margin-right:10%;
             display: inline-block;
         }
+        .welcome_logo{
+            scale: 2;
+            margin-left: -30%;
+            
+        }
     </style>
 </head>
 <body>
     <header>
         <div>
-            <img src="img/sit.logo.svg" class="welcome_logo">
+            <img src="img/sit.logo.svg">
             <!--idk why this svg doesnt work.. oh well, we're gonna replace it with the actual stuff-->
         </div>
         <div>
             <h1>Welcome to:</h1>
+            <div class="welcome_logo">
+                <img src="img/SVGs/Logo_Main.svg" class="welcome_logo">
+            </div>
             <!--Here goes logo-->
             <!--Here goes paper plane-->
         </div>
@@ -36,7 +44,6 @@
     </header>
     <main>
         <a href="login.html"><button type="button" class="welcome_buttons_purple">Login</button></a>
-        <br>
         <a href="signup.html"><button type="button" class="welcome_buttons_purple">Sign up</button></a>
     </main>
 </body>

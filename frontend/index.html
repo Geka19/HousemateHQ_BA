@@ -57,7 +57,6 @@
             color: white;
         }
         .edit{
-            background-color: white;
             border: solid 1px black;
             box-shadow:  5px 5px black;
             height:45px;
@@ -65,15 +64,33 @@
             border-radius: 50%;
             position:fixed;
             margin-left:87vw;
-            margin-top: 2%;
+            margin-top: 2%;  
         }
+
+        .edit_svg{
+            width: 50px;
+            height: 50px;
+        }
+        .nav_icons{
+            background-color: white;
+            border: solid 1px black;
+            box-shadow:  5px 5px black;
+            height:40px;
+            width:40px;
+            padding:2%;
+            border-radius: 25px;
+            margin-bottom: 5%;
+        }
+        
     </style>
 </head>
 <body>
     <!--might have to use multer for saving img path while picture is on client (axios)-->
     <main>
         <div>
-            <sections class="edit"><a href="edit.html">edit</a></sections>
+            <sections class="edit">
+                <a href="edit.html"><img src="img/SVGs/Edit_iconV2.svg" class="nav_icons"></a>
+            </sections>
         </div>
         <div class="profile_images">
             <img src="img/testimg1.jpg">
@@ -109,10 +126,10 @@
     </main>
     <footer>
         <nav>
-            <a href="activities.html">PIC A</a>
-            <a href="index.html">ME PIC</a>
-            <a href="addFriends.html">PLUS UTRA</a>
-            <a href="settings.html">SETTIG</a>
+            <a href="activities.html"><img src="img/PNGs/Venner_icon.png" class="nav_icons"></a>
+            <a href="index.html"><img src="img/PNGs/Profil_icon.png" class="nav_icons"></a>
+            <a href="addFriends.html"><img src="img/PNGs/Pluss_icon.png" class="nav_icons"></a>
+            <a href="settings.html"><img src="img/PNGs/Instill_icon.png" class="nav_icons"></a>
 
         </nav>
     </footer>
