@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1286.72 945.66">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #01283e;
+        stroke-miterlimit: 10;
+        stroke-width: 12px;
+      }
+    </style>
+  </defs>
+  <line class="b" x1="802.5" y1="19" x2="802.5" y2="74"/>
+  <line class="b" x1="830" y1="46.5" x2="775" y2="46.5"/>
+</svg>

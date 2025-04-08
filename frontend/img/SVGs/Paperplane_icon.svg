@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1286.72 945.66">
+  <defs>
+    <style>
+      .c {
+        fill: #fff;
+      }
+
+      .d, .e, .f, .g {
+        fill: none;
+        stroke: #01283e;
+        stroke-miterlimit: 10;
+      }
+
+      .d, .g {
+        stroke-width: 2.83px;
+      }
+
+      .h {
+        fill: #ebeaea;
+      }
+
+      .e, .f {
+        stroke-width: 2.13px;
+      }
+
+      .e, .g {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="a" data-name="Layer 7">
+    <polyline class="h" points="687.95 22.96 644 60.5 638.5 75 633 48.5 685.5 22 687.95 23.45"/>
+    <polygon class="c" points="688.5 23 659 72.5 644.5 61 688.5 23"/>
+    <polygon class="c" points="650.5 67 639.5 74 644.5 62 650.5 67"/>
+    <polygon class="c" points="675.5 26.55 633 48.13 613.64 47.75 675.5 26.55"/>
+  </g>
+  <g id="b" data-name="Layer 6">
+    <line class="g" x1="692" y1="19.5" x2="659" y2="72.5"/>
+    <line class="g" x1="609" y1="48.5" x2="692" y2="19.5"/>
+    <line class="d" x1="634" y1="48.5" x2="609" y2="48.5"/>
+    <line class="g" x1="645" y1="61.5" x2="659" y2="72.5"/>
+    <line class="g" x1="638" y1="75.5" x2="633" y2="48.5"/>
+    <line class="d" x1="652" y1="66.5" x2="638" y2="75.5"/>
+    <line class="e" x1="644" y1="60.5" x2="638.5" y2="75"/>
+    <line class="f" x1="692" y1="19.5" x2="644" y2="60.5"/>
+    <line class="f" x1="633" y1="48.5" x2="692" y2="19.5"/>
+  </g>
+</svg>

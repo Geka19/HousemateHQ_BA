@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1286.72 945.66">
+  <defs>
+    <style>
+      .d {
+        stroke-dasharray: 0 0 9.25 5.55;
+      }
+
+      .d, .e {
+        stroke-width: 3px;
+      }
+
+      .d, .e, .f, .g, .h, .i, .j {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .d, .e, .j {
+        stroke: #4f328e;
+      }
+
+      .k {
+        fill: #fff;
+      }
+
+      .f, .g, .h, .i {
+        stroke: #01283e;
+      }
+
+      .f, .i {
+        stroke-width: 2.83px;
+      }
+
+      .l {
+        fill: #ebeaea;
+      }
+
+      .g, .h {
+        stroke-width: 2.13px;
+      }
+
+      .g, .i {
+        stroke-linecap: round;
+      }
+
+      .m {
+        font-size: 113.91px;
+      }
+
+      .m, .n {
+        fill: #4f328e;
+        font-family: SegoeUIVariable-SemiboldText, 'Segoe UI Variable';
+        font-variation-settings: 'wght' 600, 'opsz' 10;
+        font-weight: 600;
+      }
+
+      .j {
+        stroke-width: 6px;
+      }
+
+      .n {
+        font-size: 51.88px;
+      }
+    </style>
+  </defs>
+  <g id="a" data-name="Layer 21">
+    <text class="m" transform="translate(602 501.23)"><tspan x="0" y="0">H</tspan></text>
+    <text class="n" transform="translate(679.14 447.48)"><tspan x="0" y="0">ousemate</tspan></text>
+    <text class="n" transform="translate(678.14 500.48)"><tspan x="0" y="0">HQ</tspan></text>
+    <line class="j" x1="671" y1="458" x2="863" y2="458"/>
+  </g>
+  <g id="b" data-name="Layer 22">
+    <g>
+      <polyline class="l" points="903.86 457.36 850.15 478.71 840.27 490.66 843.61 463.8 901.86 455.66 903.71 457.82"/>
+      <polygon class="k" points="904.37 457.57 860.48 494.91 850.46 479.34 904.37 457.57"/>
+      <polygon class="k" points="854.21 486.96 841.54 490.03 850.14 480.29 854.21 486.96"/>
+      <polygon class="k" points="890.92 456.73 843.73 463.45 825.53 456.84 890.92 456.73"/>
+      <line class="i" x1="908.81" y1="455.39" x2="860.48" y2="494.91"/>
+      <line class="i" x1="820.9" y1="456.06" x2="908.81" y2="455.39"/>
+      <line class="f" x1="844.56" y1="464.12" x2="820.9" y2="456.06"/>
+      <line class="i" x1="850.78" y1="479.98" x2="860.48" y2="494.91"/>
+      <line class="i" x1="839.63" y1="490.97" x2="843.61" y2="463.8"/>
+      <line class="f" x1="855.79" y1="486.97" x2="839.63" y2="490.97"/>
+      <line class="g" x1="850.15" y1="478.71" x2="840.27" y2="490.66"/>
+      <line class="h" x1="908.81" y1="455.39" x2="850.15" y2="478.71"/>
+      <line class="h" x1="843.61" y1="463.8" x2="908.81" y2="455.39"/>
+    </g>
+  </g>
+  <g id="c" data-name="Layer 23">
+    <g>
+      <path class="e" d="m753.48,505.87s1.85.61,4.93.77"/>
+      <path class="d" d="m763.94,506.38c5.18-.72,11.77-2.99,18.56-8.88,15-13,25.48-7.84,25.48-7.84,0,0,10.89,4.51,21.95,3.53"/>
+      <path class="e" d="m832.68,492.82c1.63-.29,3.25-.72,4.82-1.32"/>
+    </g>
+  </g>
+</svg>
