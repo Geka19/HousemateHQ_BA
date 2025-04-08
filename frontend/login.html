@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         header{
             height: 400px;
@@ -11,18 +12,7 @@
         form{
             margin-left:10%;
             margin-right:10%;
-           
             display: inline-block;
-        }
-        form>input{
-            width:100%;
-            margin-bottom: 10%;
-            height: 3em;
-        }
-        .button_form{
-            width:50%;
-            margin-left: 25%;
-            height: 2em;
         }
     </style>
 </head>
@@ -33,19 +23,19 @@
     </header>
     <main>
         <form action="login.php" method="post">
-              <input type="text" placeholder="Email" name="email" required>
-              <input type="password" placeholder="Password" name="password" required>
+              <input type="text" placeholder="Email" name="email" class="welcome_buttons_purple" required>
+              <input type="password" placeholder="Password" name="password" class="welcome_buttons_purple" required>
           
-              <button type="submit" class="button_form">Login</button>
+              <button type="submit" class="welcome_buttons_green">Login</button>
               <!--
               if we do decide to add cookies we should look into remember me
               <label>
                 <input type="checkbox" checked="checked" name="remember"> Remember me
               </label>
+              <button type="button"><a href="welcome.html" class="button_form">Go back</a></button>
+               <button type="button"><a href="index.html" class="button_form">Success</a></button>
               -->
                <!--For flow purposes i add an extra button that i will remove later-->
-               <button type="button"><a href="welcome.html" class="button_form">Go back</a></button>
-               <button type="button"><a href="index.html" class="button_form">Success</a></button>
           </form>
     </main>
 </body>

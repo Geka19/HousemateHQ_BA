@@ -4,14 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        body{
-            min-height: 100vh;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-
-        }
         .profile_images{
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -29,10 +23,12 @@
             text-align: center;
         }
         .status{
-            background-color:aquamarine;
+            background-color:#68C5AE;
             padding:2%;
-            border-radius: 10%;
-            border: solid 1px black;
+            width:70%;
+            border-radius: 5px;
+            border: solid 1px #166567;
+            box-shadow:  5px 5px #166567;
         }
         .profile_info_name{
             display: grid;
@@ -42,10 +38,11 @@
             line-height: 0.3;
         }
         .profile_pic{
-            background-color: brown;
-            height:100px;
-            width:100px;
-            margin-left:10%;
+            border: solid 1px black;
+            box-shadow:  5px 5px black;
+            height:80px;
+            width:80px;
+            margin-left:15%;
             border-radius: 50%;
         }
         .profile_info_bio{
@@ -53,34 +50,27 @@
             max-width: 80%;
             margin-left:7%;
             padding: 2%;
-            border: 1px solid black;
-            border-radius: 5%;
-        }
-        nav{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            position: sticky;
-            text-align: center;
-        }
-        footer{
-            margin-top: auto;
-            background-color:brown;
-            height: 50px;
+            border-radius: 10px;
+            box-shadow:  8px 8px #4B3389;
+            background-color: #8B7DB0;
+            border: 3px solid #4B3389;
+            color: white;
         }
         .edit{
-            background-color:aqua;
+            background-color: white;
+            border: solid 1px black;
+            box-shadow:  5px 5px black;
             height:45px;
             width:45px;
             border-radius: 50%;
             position:fixed;
             margin-left:87vw;
             margin-top: 2%;
-
         }
-
     </style>
 </head>
 <body>
+    <!--might have to use multer for saving img path while picture is on client (axios)-->
     <main>
         <div>
             <sections class="edit"><a href="edit.html">edit</a></sections>
