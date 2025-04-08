@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75.5 74">
+  <rect x="29.26" y="12.48" width="22.47" height="56" transform="translate(-16.76 40.49) rotate(-45)" fill="#f9c77c" stroke="#01283e" stroke-miterlimit="10"/>
+  <rect x="6.99" y="16.7" width="22.47" height="3" transform="translate(-7.53 18.22) rotate(-45)" fill="#00283d" stroke="#01283e" stroke-miterlimit="10"/>
+  <rect x="1.69" y="8.9" width="22.47" height="8" transform="translate(-5.34 12.91) rotate(-45)" fill="#f69ba3" stroke="#01283e" stroke-miterlimit="10"/>
+  <polyline points="52.35 68.22 52.7 68.27 70.79 70.77 68.24 52.33" fill="#fff" stroke="#01283e" stroke-miterlimit="10" stroke-width="1.2"/>
+  <polygon points="65.52 70.04 70.06 65.49 70.79 70.77 65.52 70.04" fill="#00283d" stroke="#01283e" stroke-miterlimit="10" stroke-width="1.2"/>
+</svg>

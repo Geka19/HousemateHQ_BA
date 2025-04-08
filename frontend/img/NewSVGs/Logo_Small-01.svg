@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 26" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 158">
+  <text transform="translate(.22 87.29)" fill="#4f328e" font-family="Arial-BoldMT, Arial" font-size="113.91" font-weight="700"><tspan x="0" y="0" letter-spacing="-.05em">H</tspan><tspan x="77.14" y="0">HQ</tspan></text>
+  <g>
+    <polyline points="143.25 92.82 54.06 128.12 37.66 147.9 43.17 103.4 139.91 90 142.99 93.59" fill="#ebeaea"/>
+    <polygon points="144.8 92.35 71.08 155 54.25 128.87 144.8 92.35" fill="#fff"/>
+    <polygon points="60.39 141.1 39.54 146.82 53.95 129.74 60.39 141.1" fill="#fff"/>
+    <polygon points="132.37 91.31 46.49 104.75 13.54 92.76 132.37 91.31" fill="#fff"/>
+    <line x1="148.95" y1="90.48" x2="70.34" y2="154.75" fill="none" stroke="#01283e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.83"/>
+    <line x1="5.97" y1="91.57" x2="148.95" y2="90.48" fill="none" stroke="#01283e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.83"/>
+    <line x1="44.45" y1="104.69" x2="5.97" y2="91.57" fill="none" stroke="#01283e" stroke-miterlimit="10" stroke-width="2.83"/>
+    <line x1="54.56" y1="130.47" x2="70.34" y2="154.75" fill="none" stroke="#01283e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.83"/>
+    <line x1="36.44" y1="148.35" x2="42.91" y2="104.16" fill="none" stroke="#01283e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.83"/>
+    <line x1="62.71" y1="141.84" x2="36.44" y2="148.35" fill="none" stroke="#01283e" stroke-miterlimit="10" stroke-width="2.83"/>
+    <line x1="53.55" y1="128.41" x2="37.47" y2="147.84" fill="none" stroke="#01283e" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="148.95" y1="90.48" x2="53.55" y2="128.41" fill="none" stroke="#01283e" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="42.91" y1="104.16" x2="148.95" y2="90.48" fill="none" stroke="#01283e" stroke-miterlimit="10" stroke-width="2.13"/>
+  </g>
+</svg>
