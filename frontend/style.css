@@ -32,6 +32,16 @@ nav{
 input{
     color: var(--white);
 }
+.nav_icons{
+    background-color: white;
+    border: solid 1px black;
+    box-shadow:  5px 5px black;
+    height:40px;
+    width:40px;
+    padding:4%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+}
 .welcome_buttons_purple{
     text-decoration: none;
     width:100%;
