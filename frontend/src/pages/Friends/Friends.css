@@ -1,0 +1,19 @@
+.activities-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+  
+  .activities-header > * {
+    height: 10vh;
+    padding-top: 10%;
+  }
+  
+  .activity_friends_left {
+    background-color: #8B7DB0;
+  }
+  
+  .activity_friends_right {
+    background-color: #04293F;
+  }
+  

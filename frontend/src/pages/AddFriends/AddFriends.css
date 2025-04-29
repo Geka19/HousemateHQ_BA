@@ -1,0 +1,46 @@
+.profile {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5%;
+  }
+  
+  .profile_images > img {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .profile_info_bio {
+    margin-top: 10%;
+    max-width: 80%;
+    margin-left: 7%;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 5%;
+  }
+  
+  .profile_info_name {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 5%;
+  }
+  
+  .p_small {
+    line-height: 0.3;
+  }
+  
+  .profile_add_button {
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .profile_add_button > * {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  

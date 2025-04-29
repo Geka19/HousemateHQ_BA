@@ -1,3 +1,4 @@
+// routes/activityRoutes.js
 const express = require("express");
 const router = express.Router();
 const { createActivity, getAllActivities, getSingleActivity, updateActivity, deleteActivity } = require("../controllers/activityController");

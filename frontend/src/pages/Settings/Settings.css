@@ -1,0 +1,12 @@
+.settings-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .settings-list li {
+    line-height: 3em;
+    font-size: 1.8em;
+    border-bottom: 1px solid black;
+  }
+  
