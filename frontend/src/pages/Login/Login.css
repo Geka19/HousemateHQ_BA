@@ -1,8 +1,9 @@
-header{
-    height: 400px;
-}
 form{
     margin-left:10%;
     margin-right:10%;
     display: inline-block;
+}
+.login_headline{
+    margin-top:10%;
+    margin-bottom: 20%;
 }

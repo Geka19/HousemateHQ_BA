@@ -1,13 +1,13 @@
 .navbar {
-  position: fixed;
+  position: absolute;
   bottom: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
   height: 70px;
   background-color: #04293F;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  z-index: 1000;
   box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.2);
 }
 

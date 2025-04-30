@@ -14,7 +14,7 @@ body {
   flex-direction: column;
 }
 footer {
-  margin-top: auto;
+ 
   background-color: var(--main_blue);
   height: 100%;
 }
@@ -79,11 +79,8 @@ input::placeholder {
 }
 .phone-frame {
   max-width: 430px; /* typical phone width (iPhone 13 Pro) */
-  margin: 0 auto;
-  width: 100%;
-  min-height: 100vh;
+  max-height: 100vh;
   background-color: white; /* optional: keeps it clean in full-width view */
-  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* optional: gives a subtle border */
 }
 
 

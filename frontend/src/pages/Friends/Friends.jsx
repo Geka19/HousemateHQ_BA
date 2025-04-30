@@ -68,33 +68,33 @@ function Friends() {
         </div>
       </header>
 
-      <main style={{ margin: '0 10%', paddingBottom: '90px' }}>
+      <main className="friends_main">
         {friends.length > 0 ? (
           friends.map((friend) => (
-            <div key={friend._id} style={{ marginBottom: '2rem' }}>
-              <div className="profile_images">
-                <div className="imgbox">
+            <div key={friend._id} style={{ marginBottom: '2rem' }} className="friends_containers">
+              <div className="friends_profile_images">
+                <div className="friends_imgbox">
                   <img src="/img/testimg1.jpg" alt="Friend" />
                 </div>
-                <div className="imgbox">
+                <div className="friends_imgbox">
                   <img src="/img/testimg2.jpg" alt="Friend" />
                 </div>
-                <div className="imgbox">
+                <div className="friends_imgbox">
                   <img src="/img/testimg3.jpg" alt="Friend" />
                 </div>
               </div>
 
-              <div className="profile_info">
-                <div className="profile_info_status">
+              <div className="friends_profile_info">
+                <div className="friends_profile_info_status">
                   <div></div><div></div><div></div>
                   <div>
-                    <p className="status">Active</p>
+                    <p className="friends_status">Active</p>
                   </div>
                 </div>
 
-                <div className="profile_info_name">
+                <div className="friends_profile_info_name">
                   <div>
-                    <section className="profile_pic"></section>
+                    <section className="friends_profile_pic"></section>
                   </div>
                   <div>
                     <p>{friend.fullName}</p>
@@ -104,7 +104,7 @@ function Friends() {
                   </div>
                 </div>
 
-                <div className="profile_info_bio">
+                <div className="friends_profile_info_bio">
                   <p>{friend.bio || 'No biography yet.'}</p>
                 </div>
               </div>

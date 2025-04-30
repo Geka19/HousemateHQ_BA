@@ -95,12 +95,12 @@ function EditProfile() {
   if (!user) return <p>Loading...</p>;
 
   return (
-    <main  style={{ paddingBottom: '80px' }}>
-      <form onSubmit={handleSubmit} className="profile_info">
-        <div className="profile_info_name">
+    <main  style={{ paddingBottom: '30%' }} className="edit_profile_main">
+      <form onSubmit={handleSubmit} className="edit_profile_info">
+        <div className="edit_profile_info_name">
           <div></div>
           <div>
-            <div><section className="profile_pic"></section></div>
+            <div><section className="edit_profile_pic"></section></div>
             <div>
               <input
                 type="text"
@@ -108,24 +108,23 @@ function EditProfile() {
                 value={form.fullName}
                 onChange={handleChange}
                 placeholder="Full Name"
-                className="welcome_buttons_purple"
+                className="edit_profile_name_purple"
               />
             </div>
           </div>
           <div></div>
         </div>
 
-        <div className="profile_images">
+        <div className="edit_profile_images">
           {imageSlots.map((img, idx) => (
             <div key={idx} style={{ position: 'relative', display: 'inline-block' }}>
               <img
                 src={img.src}
                 alt={`Image ${idx}`}
+                className="edit_profile_images_img"
                 style={{
                   height: '150px',
                   objectFit: 'cover',
-                  borderRadius: '10px',
-                  marginRight: '10px',
                 }}
               />
               <button
@@ -134,7 +133,6 @@ function EditProfile() {
                 style={{
                   position: 'absolute',
                   top: '5px',
-                  right: '5px',
                   backgroundColor: 'red',
                   color: 'white',
                   border: 'none',
@@ -162,7 +160,7 @@ function EditProfile() {
           />
         </div>
 
-        <div className="profile_info_text">
+        <div className="edit_profile_info_text">
           <div>
             <input
               type="text"
@@ -170,7 +168,7 @@ function EditProfile() {
               value={form.course}
               onChange={handleChange}
               placeholder="Course"
-              className="welcome_buttons_purple"
+              className="edit_profile_welcome_buttons_purple"
             />
             <input
               type="text"
@@ -178,7 +176,7 @@ function EditProfile() {
               value={form.building}
               onChange={handleChange}
               placeholder="Building"
-              className="welcome_buttons_purple"
+              className="edit_profile_welcome_buttons_purple"
             />
             <input
               type="text"
@@ -186,13 +184,13 @@ function EditProfile() {
               value={form.room}
               onChange={handleChange}
               placeholder="Room"
-              className="welcome_buttons_purple"
+              className="edit_profile_welcome_buttons_purple"
             />
           </div>
           <div></div>
         </div>
 
-        <div className="profile_info_bio">
+        <div className="edit_profile_info_bio">
           <textarea
             name="bio"
             value={form.bio}
@@ -204,7 +202,7 @@ function EditProfile() {
         </div>
 
         <div style={{ textAlign: 'center', marginTop: '1rem' }}>
-          <button type="submit" className="welcome_buttons_green">Save</button>
+          <button type="submit" className="edit_profile_welcome_buttons_green">Save</button>
         </div>
       </form>
     </main>

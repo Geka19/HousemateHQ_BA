@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './Profile.css';
+import EditIcon from'../../assets/Icon_Edit-01.svg';
 
 function Profile() {
   const [user, setUser] = useState(null);
@@ -42,30 +43,17 @@ function Profile() {
   if (!user) return <p>Loading profile...</p>;
 
   return (
-    <main  style={{ paddingBottom: '80px' }}>
-      <div>
-        <section className="edit">
-          <a href="/edit">
-            <img src="/img/NewSVGs/Icon_Edit-01.svg" className="nav_icons" alt="Edit Profile" />
-          </a>
-        </section>
-      </div>
+    <main className="phone-frame" style={{ paddingBottom: '30%' }}>
 
       {/* Profile Images */}
-      <div className="profile_images">
+      <div className="my_profile_images">
         {user.images && user.images.length > 0 ? (
           user.images.map((imgPath, idx) => (
             <img
+              className="my_profile_images_img"
               key={idx}
               src={`http://localhost:5008${imgPath}`}
               alt={`Profile Image ${idx}`}
-              style={{
-                width: '100%',
-                height: user.images.length === 1 ? '350px' : '250px',
-                objectFit: 'cover',
-                borderRadius: '12px',
-                marginBottom: '10px'
-              }}
             />
           ))
         ) : (
@@ -74,9 +62,11 @@ function Profile() {
       </div>
 
       {/* Profile Info */}
-      <div className="profile_info">
-        <div className="profile_info_status">
-          <div></div><div></div><div></div>
+      <div className="my_profile_info">
+        <div className="my_profile_info_status">
+          <div></div>
+          <div></div>
+          <div></div>
           <div>
           <select
             value={user.status}
@@ -103,9 +93,9 @@ function Profile() {
           </div>
         </div>
 
-        <div className="profile_info_name">
+        <div className="my_profile_info_name">
           <div>
-            <section className="profile_pic"></section>
+            <section className="my_profile_pic"></section>
           </div>
           <div>
             <p>{user.fullName}</p>
@@ -115,9 +105,16 @@ function Profile() {
           </div>
         </div>
 
-        <div className="profile_info_bio">
+        <div className="my_profile_info_bio">
           <p>{user.bio || 'No biography yet...'}</p>
         </div>
+      </div>
+      <div>
+        <section className="edit">
+          <a href="/edit">
+            <img src={EditIcon} className="edit_svg" alt="Edit Profile" />
+          </a>
+        </section>
       </div>
     </main>
   );

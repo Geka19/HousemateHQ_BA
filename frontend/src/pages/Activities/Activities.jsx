@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Activities.css';
+import AddPicture from '../../assets/Icon_Pluss-01.svg';
 
 function Activities() {
   const [activities, setActivities] = useState([]);
@@ -35,8 +36,8 @@ function Activities() {
         </div>
       </header>
 
-      <main style={{ margin: '0 10%', paddingBottom: '90px' }}>
-        <div className="content">
+      <main style={{ margin: '0 10%', paddingBottom: '30%' }}>
+        <div className="activity_content">
           {activities.length > 0 ? (
             activities.map((activity) => (
               <div key={activity._id} className="activity-card">
@@ -59,7 +60,9 @@ function Activities() {
 
         {/* Plus Button */}
         <Link to="/add-activity">
-          <button type="button" className="addActivity_button">+</button>
+          <button type="button" className="addActivity_button">
+                  <img src={AddPicture} alt="Add Activity" className="addButton"/>
+          </button>
         </Link>
       </main>
     </div>

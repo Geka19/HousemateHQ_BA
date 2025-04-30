@@ -47,8 +47,8 @@ function Signup() {
 
   return (
     <main className="phone-frame" style={{ margin: '0 10%' }}>
-      <h2>Create Account</h2>
-      <form onSubmit={handleSubmit}>
+      <h2 class="signup_headline">Create Account</h2>
+      <form onSubmit={handleSubmit} class="signup_header">
         <input
           type="text"
           placeholder="Full Name"

@@ -1,5 +1,6 @@
-header{
-    height: 300px;
+.signup_headline{
+    margin-top:10%;
+    margin-bottom: 20%;
 }
 form{
     margin-left:10%;

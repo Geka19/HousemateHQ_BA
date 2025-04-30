@@ -58,28 +58,28 @@ function AddFriends() {
 
   return (
     <main className="phone-frame">
-      <div className="profile">
-        <div className="profile_images">
+      <div className="new_friend_profile">
+        <div className="new_friend_profile_images">
           <img src="/img/testimg1.jpg" alt="Friend" /> {/* placeholder */}
         </div>
-        <div className="profile_info">
-          <div className="profile_info_name">
+        <div className="new_friend_profile_info">
+          <div className="new_friend_profile_info_name">
             <div>
               <p>{randomUser.fullName}</p>
-              <p className="p_small">{randomUser.course || '—'}</p>
-              <p className="p_small">{randomUser.building || '—'}</p>
-              <p className="p_small">{randomUser.room || '—'}</p>
+              <p className="new_friend_p_small">{randomUser.course || '—'}</p>
+              <p className="new_friend_p_small">{randomUser.building || '—'}</p>
+              <p className="new_friend_p_small">{randomUser.room || '—'}</p>
             </div>
-            <div className="profile_info_bio">
+            <div className="new_friend_profile_info_bio">
               <p>{randomUser.bio || 'No bio yet...'}</p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="profile_add_button">
-        <button onClick={fetchRandomUser}>Next Friend</button>
-        <button onClick={handleAddFriend}>Add Friend</button>
+      <div className="new_friend_profile_add_button">
+        <button onClick={fetchRandomUser} className="next_button">Next Friend</button>
+        <button onClick={handleAddFriend} className="add_friend_button">Add Friend</button>
       </div>
     </main>
   );
