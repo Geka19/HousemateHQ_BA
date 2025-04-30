@@ -40,7 +40,7 @@
   .addActivity_button:hover{
     transform: scale(1.1)
   }
-  .activity_content{
+  .activity-card{
     background-color: var(--purple_light);
     box-shadow: 5px 5px var(--purple_dark);
     border: 3px solid var(--purple_dark);

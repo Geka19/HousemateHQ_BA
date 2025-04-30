@@ -10,6 +10,7 @@ function Signup() {
     password: '',
     confirmPassword: '',
   });
+  const [agreeToTerms, setAgreeToTerms] = useState(false);
   const [error, setError] = useState('');
 
   const handleChange = (e) =>
@@ -24,12 +25,17 @@ function Signup() {
       return;
     }
 
+    if (!agreeToTerms) {
+      setError('You must agree to the terms to create an account.');
+      return;
+    }
+
     try {
       const response = await fetch('http://localhost:5008/api/auth/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          fullName: formData.fullName, // IMPORTANT
+          fullName: formData.fullName,
           email: formData.email,
           password: formData.password,
         }),
@@ -47,8 +53,8 @@ function Signup() {
 
   return (
     <main className="phone-frame" style={{ margin: '0 10%' }}>
-      <h2 class="signup_headline">Create Account</h2>
-      <form onSubmit={handleSubmit} class="signup_header">
+      <h2 className="signup_headline">Create Account</h2>
+      <form onSubmit={handleSubmit} className="signup_header">
         <input
           type="text"
           placeholder="Full Name"
@@ -85,6 +91,19 @@ function Signup() {
           onChange={handleChange}
         />
         <br />
+
+        <div style={{ margin: '1rem 0', textAlign: 'left' }}>
+          <label>
+            <input
+              type="checkbox"
+              checked={agreeToTerms}
+              onChange={(e) => setAgreeToTerms(e.target.checked)}
+              required
+            />{' '}
+            I agree to the terms of use — my account will be visible to others.
+          </label>
+        </div>
+
         <button type="submit" className="welcome_buttons_green">
           Create Account
         </button>

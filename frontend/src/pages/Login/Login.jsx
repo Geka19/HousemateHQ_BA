@@ -37,7 +37,7 @@ function Login() {
   return (
     <div className="phone-frame">
       <div style={{ padding: '2rem' }}>
-        <h2 class="login_headline">Login</h2>
+        <h2 className="login_headline">Login</h2>
         <form onSubmit={handleLogin}>
           <input
             type="email"
