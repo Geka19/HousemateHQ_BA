@@ -8,5 +8,7 @@
     line-height: 3em;
     font-size: 1.8em;
     border-bottom: 1px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--main_blue);
   }
   

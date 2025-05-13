@@ -5,16 +5,16 @@
   }
   
   .activities-header > * {
-    height: 10vh;
+    height: 8vh;
     padding-top: 10%;
   }
   
   .activity_friends_left {
-    background-color: #8B7DB0;
+    background-color: var(--purple_dark);
   }
   
   .activity_friends_right {
-    background-color: #04293F;
+    background-color: var(--main_blue);
   }
   
   .friends_profile_info{
@@ -30,6 +30,7 @@
     background-color:aquamarine;
     border-radius: 10%;
     border: solid 1px black;
+    color: black;
 }
 .friends_profile_info_name{
     display: grid;
@@ -71,4 +72,5 @@
   box-shadow: 8px 8px var(--purple_dark);
   background-color: var(--purple_light);
   border: 3px solid var(--purple_dark);
+  color: var(--black);
 }

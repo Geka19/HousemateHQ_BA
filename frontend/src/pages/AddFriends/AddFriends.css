@@ -3,8 +3,10 @@
     margin-right: 5%;
     margin-top: 10%;
     align-items: center;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 2%;
     padding: 5%;
+    background-color: var(--green_light);
   }
   
   .new_friend_profile_images > img {
@@ -20,6 +22,7 @@
     padding: 2%;
     border: 1px solid black;
     border-radius: 5%;
+    background-color: var(--white);
   }
   
   .new_friend_profile_info_name {
@@ -48,7 +51,7 @@
     box-shadow: 8px 8px var(--purple_dark);
     background-color: var(--purple_light);
     border: 3px solid var(--purple_dark);
-    color: white;
+    color: var(--black);
     font-size: 1.2em;
   }
   .add_friend_button{
@@ -56,7 +59,7 @@
     box-shadow: 8px 8px var(--green_dark);
     background-color: var(--green_light);
     border: 3px solid var(--green_dark);
-    color: white;
+    color: var(--black);
     font-size: 1.2em;
     height: 2em;
   }

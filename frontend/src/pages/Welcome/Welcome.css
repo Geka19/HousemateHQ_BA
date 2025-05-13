@@ -12,8 +12,15 @@
     display: inline-block;
 }
 .sitLogo{
-    width:100%;
+    width:90%;
+    margin-left: 20%;
+    margin-top: -20%;
 }
 .welcome_headline{
     margin-top: 40%;
+}
+
+.welcome_logo{
+    width: 120%;
+    margin-left: -10%;
 }

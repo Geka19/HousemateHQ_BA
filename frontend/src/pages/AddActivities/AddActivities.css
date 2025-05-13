@@ -11,7 +11,7 @@
   .add_activity_input[type="text"], input[type="date"], input[type="time"] {
     padding: 0.5rem;
     font-size: 1rem;
-    background-color: var(--purple_dark);
+    background-color: var(--purple_light);
     border: 3px solid var(--purple_dark);
   }
   
@@ -21,7 +21,11 @@
     background-color: var(--green_light);
     border: 3px solid var(--green_dark);
   }
-  .welcome_buttons_purple {
+
+  input[type=radio] {
+    color: var(--white);
+  }
+  /*.welcome_buttons_purple {
     text-decoration: none;
     width: 100%;
     margin-bottom: 10%;
@@ -49,4 +53,4 @@
   .welcome_buttons_green:hover {
     box-shadow: 8px 8px 1px var(--black);
     border: 3px solid var(--black);
-  }
+  }*/

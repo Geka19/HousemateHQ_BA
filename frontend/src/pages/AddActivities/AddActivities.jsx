@@ -68,7 +68,7 @@ function AddActivity() {
             required
             value={formData.description}
             onChange={handleChange}
-             className="add_activity_input"
+            className="add_activity_input"
           />
           <div style={{ margin: '1rem 0' }}>
             <label>
@@ -93,7 +93,7 @@ function AddActivity() {
             required
             value={formData.date}
             onChange={handleChange}
-             className="add_activity_input"
+            className="add_activity_input"
           />
           <input
             type="time"
@@ -101,7 +101,7 @@ function AddActivity() {
             required
             value={formData.time}
             onChange={handleChange}
-             className="add_activity_input"
+            className="add_activity_input"
           />
 
           <button type="submit" className="add_activity_from_button">Create Activity</button>

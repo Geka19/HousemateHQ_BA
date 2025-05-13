@@ -23,7 +23,7 @@ function Activities() {
 
   return (
     <div className="phone-frame">
-       <header className="activities-header">
+      <header className="activities-header">
         <div className="activity_friends_left">
           <Link to="/activities">
             <p>Activities</p>

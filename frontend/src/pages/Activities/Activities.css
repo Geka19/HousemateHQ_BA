@@ -5,16 +5,24 @@
   }
   
   .activities-header > * {
-    height: 10vh;
+    height: 8vh;
     padding-top: 10%;
   }
   
   .activity_friends_left {
-    background-color: #8B7DB0;
+    background-color: var(--purple_dark);
   }
   
   .activity_friends_right {
-    background-color: #04293F;
+    background-color: var(--main_blue);
+  }
+
+  a{
+    color: white;
+  }
+
+  .activity_friends_left, a:hover{
+    color: var(--green_light);
   }
   
   /*
@@ -47,5 +55,6 @@
     margin-top: 10%;
     border-radius: 10px;
     padding-left: 4%;
+    color: black;
   }
   

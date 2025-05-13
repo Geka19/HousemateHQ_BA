@@ -5,6 +5,7 @@
     margin-bottom: 10%;
 }
 .my_profile_images_img{
+    width: 100%;
     height: 150px;
 }
 .my_profile_info{
@@ -38,7 +39,8 @@
     box-shadow:  5px 5px black;
     height:80px;
     width:80px;
-    margin-left:15%;
+    margin-left: 20%;
+    margin-top: 10%;
     border-radius: 50%;
 }
 .my_profile_info_bio{
@@ -47,10 +49,10 @@
     margin-left:7%;
     padding: 2%;
     border-radius: 10px;
-    box-shadow:  8px 8px #4B3389;
-    background-color: #8B7DB0;
-    border: 3px solid #4B3389;
-    color: white;
+    box-shadow:  8px 8px var(--purple_dark);
+    background-color: var(--purple_light);
+    border: 3px solid var(--purple_dark);
+    color: black;
 }
 .edit{
     border: solid 1px black;

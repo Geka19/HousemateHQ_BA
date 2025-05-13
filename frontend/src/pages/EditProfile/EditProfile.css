@@ -2,12 +2,33 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.edit_profile_images_img{
-    height: 100px;      /* Fixed height */
-    object-fit: cover;  /* Crop while keeping aspect ratio */
+
+/*.edit_profile_images_img{
+    height: 100px;      /* Fixed height 
+    object-fit: cover;  /* Crop while keeping aspect ratio 
     border-radius: 10px;
     margin-right: 10px;
+    
+}*/
+
+/* fixed image fuck up*/
+.edit_profile_images_img{ 
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+}
+
+.preview-image {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
   }
+
 .edit_profile_info{
     display: grid;
     grid-template-columns: 1fr;
@@ -47,6 +68,7 @@
     border-radius: 25px;
     box-shadow: 8px 8px var(--purple_dark);
     background-color: var(--purple_light);
+    color: var(--black);
 }
 .edit_profile_info_text{
     display: grid;
@@ -62,7 +84,7 @@
     box-shadow: 8px 8px var(--purple_dark);
     background-color: var(--purple_light);
     border: 3px solid var(--purple_dark);
-    color: white;
+    color: var(--black);
     font-size: 1.2em;
     text-align: left;
     
@@ -74,18 +96,19 @@
     border: 2px solid var(--green_dark);
     border-radius: 5px;
     box-shadow: 8px 8px var(--green_dark);
+    color: var(--black);
 
 }
-  .edit_profile_welcome_buttons_purple:hover {
+.edit_profile_welcome_buttons_purple:hover {
     box-shadow: 8px 8px 1px var(--black);
     border: 3px solid var(--black);
-  }
-  
-  .edit_profile_welcome_buttons_green:hover {
+}
+
+.edit_profile_welcome_buttons_green:hover {
     box-shadow: 8px 8px 1px var(--black);
     border: 3px solid var(--black);
-  }
-  .edit_profile_name_purple{
+}
+.edit_profile_name_purple{
     text-decoration: none;
     width: 100%;
     margin-bottom: 10%;
@@ -95,10 +118,10 @@
     box-shadow: 8px 8px var(--purple_dark);
     background-color: var(--purple_light);
     border: 3px solid var(--purple_dark);
-    color: white;
+    color: var(--black);
     font-size: 1.2em;
     text-align: center;
-  }
-  .edit_profile_main{
+}
+.edit_profile_main{
     width:70%;
-  }
+}

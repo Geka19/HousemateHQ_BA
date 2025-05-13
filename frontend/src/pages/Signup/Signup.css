@@ -1,9 +1,14 @@
 .signup_headline{
-    margin-top:10%;
-    margin-bottom: 20%;
+    margin-top:20%;
+    margin-bottom: 10%;
+    margin-left: 10%;
 }
 form{
     margin-left:10%;
     margin-right:10%;
     display: inline-block;
+}
+
+label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
