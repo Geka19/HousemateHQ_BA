@@ -43,7 +43,7 @@ function Profile() {
   if (!user) return <p>Loading profile...</p>;
 
   return (
-    <main className="phone-frame" style={{ paddingBottom: '30%' }}>
+    <main className="phone-frame" style={{ paddingBottom: '200px' }}>
 
       {/* Profile Images */}
       <div className="my_profile_images">

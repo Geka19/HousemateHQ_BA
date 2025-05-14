@@ -37,7 +37,7 @@ function AddActivity() {
 
   return (
     <div className="phone-frame">
-      <main style={{ textAlign: 'center',paddingBottom: '30%'  }}>
+      <main style={{ textAlign: 'center',paddingBottom: '200px'  }}>
       <header className="activities-header">
         <div className="activity_friends_left">
           <Link to="/activities">

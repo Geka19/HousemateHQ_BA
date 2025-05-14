@@ -37,6 +37,7 @@
   
   .new_friend_profile_add_button {
     margin-top: 20%;
+    margin-bottom: 150px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }

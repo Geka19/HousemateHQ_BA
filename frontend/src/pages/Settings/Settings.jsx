@@ -58,7 +58,7 @@ function Settings() {
       <header style={{ marginLeft: '5%' }}>
         <h1> Settings</h1>
       </header>
-      <main style={{ marginLeft: '5%', marginRight: '5%', paddingBottom: '30%' }}>
+      <main style={{ marginLeft: '5%', marginRight: '5%', paddingBottom: '200px' }}>
         <ul className="settings-list">
           <li onClick={() => setShowThemeOptions(!showThemeOptions)} style={{ cursor: 'pointer' }}>
             Accessibility ▾

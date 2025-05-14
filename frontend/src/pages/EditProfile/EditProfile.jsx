@@ -95,7 +95,7 @@ function EditProfile() {
   if (!user) return <p>Loading...</p>;
 
   return (
-    <main  style={{ paddingBottom: '30%' }} className="edit_profile_main">
+    <main  style={{ paddingBottom: '200px' }} className="edit_profile_main">
       <form onSubmit={handleSubmit} className="edit_profile_info">
         <div className="edit_profile_info_name">
           <div></div>

@@ -36,7 +36,7 @@ function Activities() {
         </div>
       </header>
 
-      <main style={{ margin: '0 10%', paddingBottom: '30%' }}>
+      <main style={{ margin: '0 10%', paddingBottom: '200px' }}>
         <div className="activity_content">
           {activities.length > 0 ? (
             activities.map((activity) => (
