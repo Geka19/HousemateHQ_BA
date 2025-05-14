@@ -58,7 +58,7 @@ function Settings() {
       <header style={{ marginLeft: '5%' }}>
         <h1> Settings</h1>
       </header>
-      <main style={{ marginLeft: '5%', marginRight: '5%', paddingBottom: '200px' }}>
+      <main style={{ marginLeft: '5%', marginRight: '5%',  }}>
         <ul className="settings-list">
           <li onClick={() => setShowThemeOptions(!showThemeOptions)} style={{ cursor: 'pointer' }}>
             Accessibility ▾
@@ -69,8 +69,8 @@ function Settings() {
               <button onClick={() => setTheme('dark')} style={{ marginLeft: '10px' }}>🌙 Dark Mode</button>
             </li>
           )}
-          <li onClick={handleDeleteAccount} style={{ color: 'red', cursor: 'pointer' }}>Delete Account</li>
           <li onClick={handleLogout} style={{ cursor: 'pointer' }}>Logout</li>
+          <li onClick={handleDeleteAccount} style={{ color: 'red', cursor: 'pointer' }}>Delete Account</li>
         </ul>
       </main>
     </div>

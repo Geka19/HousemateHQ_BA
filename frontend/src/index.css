@@ -78,32 +78,27 @@ input::placeholder {
 .phone-frame {
   max-width: 430px; /* typical phone width (iPhone 13 Pro) */
   max-height: 100vh;
-  background-color: white; /* optional: keeps it clean in full-width view */
+}
+body.light li, body.light h1, body.light h2, body.light a{
+  color: black;
+}
+body.light .new_friend_profile_info_name{
+  color: black;
 }
 
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
-
-body.light {
+body.light .content, body.light .phone-frame{
   background-color: #ffffff;
   color: #000000;
 }
 
-body.dark {
-  background-color: #1c1c1c;
-  color: #ffffff;
+body.dark li, body.dark h1, body.dark h2, body.dark a{
+  color: white;
+}
+body.dark .new_friend_profile_info_name{
+  color: black;
 }
 
-/* Optional: style tweaks for components in dark mode */
-body.dark .nav_icons {
-  background-color: #444;
-  border-color: white;
+body.dark .content, body.dark .phone-frame{
+  background-color: var(--main_blue);
+  color: white
 }

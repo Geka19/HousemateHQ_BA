@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './EditProfile.css';
+import IconProfilePicDefault from '../../assets/Icon_Profil-03_ProfilePic-01.svg';
 
 function EditProfile() {
   const [user, setUser] = useState(null);
@@ -100,7 +101,7 @@ function EditProfile() {
         <div className="edit_profile_info_name">
           <div></div>
           <div>
-            <div><section className="edit_profile_pic"></section></div>
+            <div><section className="edit_profile_pic"><img src={IconProfilePicDefault} alt="Profile figre" class="profile_icon_picture_editing"/></section></div>
             <div>
               <input
                 type="text"
@@ -187,7 +188,7 @@ function EditProfile() {
               className="edit_profile_welcome_buttons_purple"
             />
           </div>
-          <div></div>
+         <div></div> <div></div>
         </div>
 
         <div className="edit_profile_info_bio">

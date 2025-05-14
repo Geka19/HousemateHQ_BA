@@ -58,12 +58,12 @@
     height:100px;
     width:100px;
     border-radius: 50%;
-    margin-left:40%;
+    margin-left:30%;
 }
 .edit_profile_info_bio{
     margin-top:10%;
-    max-width: 70%;
-    padding: 2%;
+    max-width: 90%;
+    padding: 5%;
     border: 3px solid var(--purple_dark);
     border-radius: 25px;
     box-shadow: 8px 8px var(--purple_dark);
@@ -72,7 +72,7 @@
 }
 .edit_profile_info_text{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 7fr 1fr;
     margin-top:10%;
 }
 .edit_profile_welcome_buttons_purple{
@@ -123,5 +123,10 @@
     text-align: center;
 }
 .edit_profile_main{
-    width:70%;
+    width:90%;
+}
+.profile_icon_picture_editing{
+  height: 80%;
+  margin-left:0%;
+  margin-top:10%;
 }

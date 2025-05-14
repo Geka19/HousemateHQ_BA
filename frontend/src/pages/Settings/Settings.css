@@ -12,3 +12,14 @@
     color: var(--main_blue);
   }
   
+  ul {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* or any fixed height */
+}
+  ul li:last-child {
+ margin-top: 100%;
+  position: fixed;
+  border-bottom: 0px
+}
+
