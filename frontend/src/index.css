@@ -1,0 +1,110 @@
+:root {
+  --purple_light: #beb6d0;
+  --purple_dark: #4B3389;
+  --green_light: #bfe3dd;
+  --green_dark: #166567;
+  --white: #EBEAEA;
+  --main_blue: #04293F;
+  --black: #000000;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  /*background-image: url("Background-01.svg");*/
+  background-color:#EBEAEA;
+}
+footer {
+  background-color: var(--main_blue);
+  height: 100%;
+}
+
+h1, h2, h3, h4, p, input{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav > a {
+  padding-top: 10%;
+  text-decoration: none;
+  color: var(--white);
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: sticky;
+  text-align: center;
+}
+
+.welcome_buttons_purple {
+  text-decoration: none;
+  width: 100%;
+  margin-bottom: 10%;
+  height: 2.5em;
+  border-radius: 10px;
+  box-shadow: 8px 8px var(--purple_dark);
+  background-color: var(--purple_light);
+  border: 3px solid var(--purple_dark);
+  color: var(--black);
+  font-size: 1.2em;
+  text-align: left;
+}
+.welcome_buttons_purple:hover {
+  box-shadow: 8px 8px 1px var(--black);
+  border: 3px solid var(--black);
+}
+.welcome_buttons_green {
+  width: 50%;
+  margin-left: 25%;
+  height: 2em;
+  background-color: var(--green_light);
+  border: 2px solid var(--green_dark);
+  border-radius: 5px;
+  box-shadow: 8px 8px var(--green_dark);
+  height: 3em;
+  color: black;
+}
+.welcome_buttons_green:hover {
+  box-shadow: 8px 8px 1px var(--black);
+  border: 3px solid var(--black);
+}
+input::placeholder {
+  color: var(--main_blue);
+  padding-left: 5%;
+}
+.phone-frame {
+  max-width: 430px; /* typical phone width (iPhone 13 Pro) */
+  max-height: 100vh;
+  background-color: white; /* optional: keeps it clean in full-width view */
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark {
+  background-color: #1c1c1c;
+  color: #ffffff;
+}
+
+/* Optional: style tweaks for components in dark mode */
+body.dark .nav_icons {
+  background-color: #444;
+  border-color: white;
+}

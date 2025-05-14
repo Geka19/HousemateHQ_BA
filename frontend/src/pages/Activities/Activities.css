@@ -1,0 +1,60 @@
+.activities-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+  }
+  
+  .activities-header > * {
+    height: 8vh;
+    padding-top: 10%;
+  }
+  
+  .activity_friends_left {
+    background-color: var(--purple_dark);
+  }
+  
+  .activity_friends_right {
+    background-color: var(--main_blue);
+  }
+
+  a{
+    color: white;
+  }
+
+  .activity_friends_left, a:hover{
+    color: var(--green_light);
+  }
+  
+  /*
+  .content > * {
+    margin-top: 10%;
+    background-color: #8B7DB0;
+    border-radius: 10px;
+    box-shadow: 5px 5px var(--purple_dark);
+    border: 3px solid var(--purple_dark);
+    padding-left: 4%;
+  }
+  */
+  .addActivity_button {
+    margin-top: 10%;
+    float: right;
+    height: 2em;
+    background-color: var(--green_light);
+    height:45px;
+    width:45px;
+    border-radius: 35px;
+    box-shadow: 5px 5px var(--green_dark);
+  }
+  .addActivity_button:hover{
+    transform: scale(1.1)
+  }
+  .activity-card{
+    background-color: var(--purple_light);
+    box-shadow: 5px 5px var(--purple_dark);
+    border: 3px solid var(--purple_dark);
+    margin-top: 10%;
+    border-radius: 10px;
+    padding-left: 4%;
+    color: black;
+  }
+  

@@ -1,0 +1,26 @@
+.welcome_header{
+    height: 300px;
+    margin-top:5%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.welcome_main{
+    width:80%;
+    padding-bottom: 30%;
+    margin-right:10%;
+    display: inline-block;
+}
+.sitLogo{
+    width:90%;
+    margin-left: 20%;
+    margin-top: -20%;
+}
+.welcome_headline{
+    margin-top: 40%;
+}
+
+.welcome_logo{
+    width: 120%;
+    margin-left: -10%;
+}

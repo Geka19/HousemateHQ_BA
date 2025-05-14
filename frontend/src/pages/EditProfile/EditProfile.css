@@ -1,0 +1,127 @@
+.edit_profile_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*.edit_profile_images_img{
+    height: 100px;      /* Fixed height 
+    object-fit: cover;  /* Crop while keeping aspect ratio 
+    border-radius: 10px;
+    margin-right: 10px;
+    
+}*/
+
+/* fixed image fuck up*/
+.edit_profile_images_img{ 
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    margin-right: 10px;
+    
+}
+
+.preview-image {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+  }
+
+.edit_profile_info{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 10%;
+}
+.edit_profile_info>*{
+    margin-bottom: 5%;
+}
+.edit_profile_info_status{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.edit_profile_info_name{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+.p_small{
+    line-height: 0.3;
+}
+.edit_profile_pic{
+    background-color:white;
+    border: solid 1px black;
+    box-shadow:  5px 5px black;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    margin-left:40%;
+}
+.edit_profile_info_bio{
+    margin-top:10%;
+    max-width: 70%;
+    padding: 2%;
+    border: 3px solid var(--purple_dark);
+    border-radius: 25px;
+    box-shadow: 8px 8px var(--purple_dark);
+    background-color: var(--purple_light);
+    color: var(--black);
+}
+.edit_profile_info_text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:10%;
+}
+.edit_profile_welcome_buttons_purple{
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 10%;
+    height: 1.5em;
+    border-radius: 10px;
+    box-shadow: 8px 8px var(--purple_dark);
+    background-color: var(--purple_light);
+    border: 3px solid var(--purple_dark);
+    color: var(--black);
+    font-size: 1.2em;
+    text-align: left;
+    
+}
+.edit_profile_welcome_buttons_green{
+    width: 40%;
+    height: 2.5em;
+    background-color: var(--green_light);
+    border: 2px solid var(--green_dark);
+    border-radius: 5px;
+    box-shadow: 8px 8px var(--green_dark);
+    color: var(--black);
+
+}
+.edit_profile_welcome_buttons_purple:hover {
+    box-shadow: 8px 8px 1px var(--black);
+    border: 3px solid var(--black);
+}
+
+.edit_profile_welcome_buttons_green:hover {
+    box-shadow: 8px 8px 1px var(--black);
+    border: 3px solid var(--black);
+}
+.edit_profile_name_purple{
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-top: 20%;
+    height: 1.5em;
+    border-radius: 10px;
+    box-shadow: 8px 8px var(--purple_dark);
+    background-color: var(--purple_light);
+    border: 3px solid var(--purple_dark);
+    color: var(--black);
+    font-size: 1.2em;
+    text-align: center;
+}
+.edit_profile_main{
+    width:70%;
+}

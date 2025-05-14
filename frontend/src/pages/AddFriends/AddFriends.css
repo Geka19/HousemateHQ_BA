@@ -1,0 +1,65 @@
+.new_friend_profile {
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 10%;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 2%;
+    padding: 5%;
+    background-color: var(--green_light);
+  }
+  
+  .new_friend_profile_images > img {
+    width: 70px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .new_friend_profile_info_bio {
+    margin-top: 10%;
+    max-width: 80%;
+    margin-left: 7%;
+    padding: 2%;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: var(--white);
+  }
+  
+  .new_friend_profile_info_name {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 5%;
+  }
+  
+  .new_friend_p_small {
+    line-height: 1.2;
+  }
+  
+  .new_friend_profile_add_button {
+    margin-top: 20%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .new_friend_profile_add_button > * {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  .next_button{
+    border-radius: 10px;
+    box-shadow: 8px 8px var(--purple_dark);
+    background-color: var(--purple_light);
+    border: 3px solid var(--purple_dark);
+    color: var(--black);
+    font-size: 1.2em;
+  }
+  .add_friend_button{
+    border-radius: 10px;
+    box-shadow: 8px 8px var(--green_dark);
+    background-color: var(--green_light);
+    border: 3px solid var(--green_dark);
+    color: var(--black);
+    font-size: 1.2em;
+    height: 2em;
+  }
