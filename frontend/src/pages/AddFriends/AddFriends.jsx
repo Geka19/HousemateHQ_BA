@@ -60,7 +60,6 @@ function AddFriends() {
     <main className="phone-frame">
       <div className="new_friend_profile">
         <div className="new_friend_profile_images">
-          <img src="/img/testimg1.jpg" alt="Friend" /> {/* placeholder */}
         </div>
         <div className="new_friend_profile_info">
           <div className="new_friend_profile_info_name">

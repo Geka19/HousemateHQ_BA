@@ -74,23 +74,50 @@ function Friends() {
           friends.map((friend) => (
             <div key={friend._id} style={{ marginBottom: '2rem' }} className="friends_containers">
               <div className="friends_profile_images">
-                <div className="friends_imgbox">
-                  <img src="/img/testimg1.jpg" alt="Friend" />
-                </div>
-                <div className="friends_imgbox">
-                  <img src="/img/testimg2.jpg" alt="Friend" />
-                </div>
-                <div className="friends_imgbox">
-                  <img src="/img/testimg3.jpg" alt="Friend" />
-                </div>
-              </div>
+              {[0, 1, 2].map((index) => (
+            <div className="friends_imgbox" key={index}>
+              {friend.images && friend.images[index] ? (
+                <img
+                  src={`http://localhost:5008/uploads/${friend.images[index].replace('/uploads/', '')}`}
+                  alt={`Friend ${index}`}
+                  className="friends_img"
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src = IconProfilePicDefault;
+                  }}
+                />
+              ) : (
+                <img
+                  src={IconProfilePicDefault}
+                  alt="Default friend"
+                  className="friends_img"
+                />
+              )}
+            </div>
+          ))}
+            </div>
 
               <div className="friends_profile_info">
                 <div className="friends_profile_info_status">
                   <div></div><div></div><div></div>
                   <div>
-                    <p className="friends_status">Active</p>
-                  </div>
+              <p
+                className="friends_status"
+                style={{
+                  backgroundColor:
+                    friend.status === 'Active'
+                      ? 'lightgreen'
+                      : friend.status === 'Busy'
+                      ? 'orange'
+                      : friend.status === 'Inactive'
+                      ? 'lightgray'
+                      : 'white',
+                  fontWeight: 'bold'
+                }}
+              >
+                {friend.status || 'Active'}
+              </p>
+            </div>
                 </div>
 
                 <div className="friends_profile_info_name">
