@@ -20,9 +20,11 @@ footer {
   height: 100%;
 }
 
-h1, h2, h3, h4, p, input{
+h1, h2, h3, h4, a{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bold;
+}
+p input{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 nav > a {
@@ -84,9 +86,6 @@ input::placeholder {
   :root {
     color: #213547;
     background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
   }
   button {
     background-color: #f9f9f9;

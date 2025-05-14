@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import './Profile.css';
 import EditIcon from'../../assets/Icon_Edit-01.svg';
+import IconProfilePicDefault from '../../assets/Icon_Profil-03_ProfilePic-01.svg';
 
 function Profile() {
   const [user, setUser] = useState(null);
@@ -95,7 +96,7 @@ function Profile() {
 
         <div className="my_profile_info_name">
           <div>
-            <section className="my_profile_pic"></section>
+            <section className="my_profile_pic"><img src={IconProfilePicDefault} alt="Profile figre" class="profile_icon_picture"/></section>
           </div>
           <div>
             <p>{user.fullName}</p>

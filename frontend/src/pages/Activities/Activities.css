@@ -17,8 +17,11 @@
     background-color: var(--main_blue);
   }
 
-  a{
+  a > p{
     color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
 
   .activity_friends_left, a:hover{
@@ -36,9 +39,10 @@
   }
   */
   .addActivity_button {
-    margin-top: 10%;
+    margin-top: 480px;
+    margin-left: 270px;
     float: right;
-    position: ;
+    position: fixed;
     height: 2em;
     background-color: var(--green_light);
     height:45px;
@@ -58,4 +62,6 @@
     padding-left: 4%;
     color: black;
   }
+
+
   

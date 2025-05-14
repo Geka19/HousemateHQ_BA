@@ -37,6 +37,15 @@ function Activities() {
       </header>
 
       <main style={{ margin: '0 10%', paddingBottom: '200px' }}>
+
+        {/* Plus Button */}
+        <Link to="/add-activity">
+          <button type="button" className="addActivity_button">
+                  <img src={AddPicture} alt="Add Activity" className="addButton"/>
+          </button>
+        </Link>
+        
+        
         <div className="activity_content">
           {activities.length > 0 ? (
             activities.map((activity) => (
@@ -59,11 +68,8 @@ function Activities() {
         </div>
 
         {/* Plus Button */}
-        <Link to="/add-activity">
-          <button type="button" className="addActivity_button">
-                  <img src={AddPicture} alt="Add Activity" className="addButton"/>
-          </button>
-        </Link>
+        
+        
       </main>
     </div>
   );

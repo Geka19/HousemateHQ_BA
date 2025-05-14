@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Friends.css';
+import IconProfilePicDefault from '../../assets/Icon_Profil-03_ProfilePic-01.svg';
 
 function Friends() {
   const [friends, setFriends] = useState([]);
@@ -94,7 +95,9 @@ function Friends() {
 
                 <div className="friends_profile_info_name">
                   <div>
-                    <section className="friends_profile_pic"></section>
+                    <section className="friends_profile_pic">
+                      <img src={IconProfilePicDefault} alt="Profile figre" class="profile_icon_picture"/>
+                    </section>
                   </div>
                   <div>
                     <p>{friend.fullName}</p>

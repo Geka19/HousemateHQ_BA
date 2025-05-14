@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import './NavBar.css';
 
-import IconActivities from '../assets/Icon_Activities-02_whiteV.svg';
-import IconProfile from '../assets/Icon_Profil-02_whiteV-01.svg';
-import IconPlus from '../assets/Icon_Pluss-02_whiteV-01.svg';
-import IconSettings from '../assets/Icon_Settings-02_whiteV-01.svg';
+import IconActivities from '../../assets/Icon_Activities-02_whiteV.svg';
+import IconProfile from '../../assets/Icon_Profil-02_whiteV-01.svg';
+import IconPlus from '../../assets/Icon_Pluss-02_whiteV-01.svg';
+import IconSettings from '../../assets/Icon_Settings-02_whiteV-01.svg';
 
 function NavBar() {
   return (

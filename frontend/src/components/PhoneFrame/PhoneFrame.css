@@ -1,7 +1,7 @@
 .smartphone {
     position: relative;
-    width: 360px;
-    height: 640px;
+    width: 400px;
+    height: 800px;
     margin: auto;
     border: 16px black solid;
     border-top-width: 60px;
@@ -43,4 +43,12 @@
     overflow-x: hidden; 
     overflow-y: auto; 
   }
- 
+  .content{
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  }
+ /* Hide scrollbar for Chrome, Safari and Opera */
+.content::-webkit-scrollbar {
+    display: none;
+}
