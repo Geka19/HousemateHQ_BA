@@ -16,7 +16,7 @@ const createActivity = async (req, res) => {
 const getAllActivities = async (req, res) => {
     try {
       const activities = await Activity.find().sort({ date: 1 });
-      res.status(200).json(activities); // ✅ Always return 200 OK, even if empty []
+      res.status(200).json(activities); 
     } catch (error) {
       res.status(400).json({ message: error.message });
     }

@@ -39,7 +39,8 @@
   }
   */
   .addActivity_button {
-    margin-top: 480px;
+    /*margin-top: 480px;*/
+    margin-top: 60%;
     margin-left: 270px;
     float: right;
     position: fixed;

@@ -17,8 +17,7 @@ const userSchema = new mongoose.Schema({
             ref: "User"
         }
     ]
-});
-//we should have images here too but idk how to do that yet, let's do just information first 
+}); 
 
 const User = mongoose.model('User', userSchema);
 

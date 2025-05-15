@@ -60,7 +60,7 @@ function Signup() {
           placeholder="Full Name"
           name="fullName"
           required
-          className="welcome_buttons_purple"
+          className="welcome_write_field_purple" 
           onChange={handleChange}
         />
         <br />
@@ -69,7 +69,7 @@ function Signup() {
           placeholder="Email"
           name="email"
           required
-          className="welcome_buttons_purple"
+          className="welcome_write_field_purple"
           onChange={handleChange}
         />
         <br />
@@ -78,7 +78,7 @@ function Signup() {
           placeholder="Password"
           name="password"
           required
-          className="welcome_buttons_purple"
+          className="welcome_write_field_purple"
           onChange={handleChange}
         />
         <br />
@@ -87,7 +87,7 @@ function Signup() {
           placeholder="Confirm Password"
           name="confirmPassword"
           required
-          className="welcome_buttons_purple"
+          className="welcome_write_field_purple"
           onChange={handleChange}
         />
         <br />

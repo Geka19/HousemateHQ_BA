@@ -3,15 +3,6 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-/*.edit_profile_images_img{
-    height: 100px;      /* Fixed height 
-    object-fit: cover;  /* Crop while keeping aspect ratio 
-    border-radius: 10px;
-    margin-right: 10px;
-    
-}*/
-
-/* fixed image fuck up*/
 .edit_profile_images_img{ 
     max-width: 100%;
     max-height: 200px;
@@ -27,7 +18,7 @@
     max-height: 200px;
     object-fit: cover;
     display: block;
-  }
+}
 
 .edit_profile_info{
     display: grid;
@@ -126,7 +117,7 @@
     width:90%;
 }
 .profile_icon_picture_editing{
-  height: 80%;
-  margin-left:0%;
-  margin-top:10%;
+    height: 80%;
+    margin-left:0%;
+    margin-top:10%;
 }

@@ -18,7 +18,7 @@
   height: 100%; /* or any fixed height */
 }
   ul li:last-child {
- margin-top: 100%;
+  margin-top: 100%;
   position: fixed;
   border-bottom: 0px
 }

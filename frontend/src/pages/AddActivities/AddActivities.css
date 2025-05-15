@@ -25,32 +25,3 @@
   input[type=radio] {
     color: var(--white);
   }
-  /*.welcome_buttons_purple {
-    text-decoration: none;
-    width: 100%;
-    margin-bottom: 10%;
-    height: 2.5em;
-    border-radius: 10px;
-    
-    color: white;
-    font-size: 1.2em;
-    text-align: left;
-  }
-  .welcome_buttons_purple:hover {
-    box-shadow: 8px 8px 1px var(--black);
-    border: 3px solid var(--black);
-  }
-  .welcome_buttons_green {
-    width: 50%;
-    margin-left: 25%;
-    height: 2em;
-    background-color: var(--green_light);
-    border: 2px solid var(--green_dark);
-    border-radius: 5px;
-    box-shadow: 8px 8px var(--green_dark);
-    height: 3em;
-  }
-  .welcome_buttons_green:hover {
-    box-shadow: 8px 8px 1px var(--black);
-    border: 3px solid var(--black);
-  }*/

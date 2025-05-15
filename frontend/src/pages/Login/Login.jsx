@@ -45,7 +45,7 @@ function Login() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-            className="welcome_buttons_purple"
+            className="welcome_write_field_purple"
           />
           <br /><br />
           <input
@@ -54,7 +54,7 @@ function Login() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            className="welcome_buttons_purple"
+            className="welcome_write_field_purple"
           />
           <br /><br />
           <button type="submit" className="welcome_buttons_green">

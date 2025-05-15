@@ -67,9 +67,6 @@ function Activities() {
           )}
         </div>
 
-        {/* Plus Button */}
-        
-        
       </main>
     </div>
   );

@@ -64,3 +64,8 @@
     font-size: 1.2em;
     height: 2em;
   }
+
+  .next_button:hover, .add_friend_button:hover {
+    box-shadow: 8px 8px 1px var(--black);
+    border: 3px solid var(--black);
+  }

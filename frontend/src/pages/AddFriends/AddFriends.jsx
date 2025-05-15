@@ -1,17 +1,14 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './AddFriends.css'; // we'll style it too
+import './AddFriends.css';
 
 function AddFriends() {
   const [randomUser, setRandomUser] = useState(null);
   const userEmail = localStorage.getItem('userEmail');
   const navigate = useNavigate();
 
-  useEffect(() => {
-    fetchRandomUser();
-  }, []);
-
-  const fetchRandomUser = async () => {
+  
+  const fetchRandomUser = useCallback(async () => {
     try {
       const res = await fetch(`http://localhost:5008/api/users/random/${userEmail}`);
       const data = await res.json();
@@ -19,7 +16,11 @@ function AddFriends() {
     } catch (err) {
       console.error('Error fetching random user:', err);
     }
-  };
+  }, [userEmail]); 
+
+  useEffect(() => {
+    fetchRandomUser();
+  }, [fetchRandomUser]); 
 
   const handleAddFriend = async () => {
     if (!randomUser) return;
@@ -39,7 +40,7 @@ function AddFriends() {
 
       if (!res.ok) throw new Error('Failed to add friend');
       alert('Friend added!');
-      fetchRandomUser(); // fetch new friend after adding
+      fetchRandomUser(); 
     } catch (err) {
       console.error('Error adding friend:', err);
     }
@@ -59,8 +60,7 @@ function AddFriends() {
   return (
     <main className="phone-frame">
       <div className="new_friend_profile">
-        <div className="new_friend_profile_images">
-        </div>
+        <div className="new_friend_profile_images"></div>
         <div className="new_friend_profile_info">
           <div className="new_friend_profile_info_name">
             <div>
@@ -85,3 +85,4 @@ function AddFriends() {
 }
 
 export default AddFriends;
+

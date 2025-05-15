@@ -168,7 +168,7 @@ function EditProfile() {
               name="course"
               value={form.course}
               onChange={handleChange}
-              placeholder="Course"
+              placeholder="Study Program"
               className="edit_profile_welcome_buttons_purple"
             />
             <input
