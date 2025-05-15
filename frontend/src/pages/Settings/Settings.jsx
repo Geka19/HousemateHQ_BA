@@ -56,7 +56,7 @@ function Settings() {
   return (
     <div className="phone-frame">
       <header style={{ marginLeft: '5%' }}>
-        <h1> Settings</h1>
+        <h1 className="settings"> Settings</h1>
       </header>
       <main style={{ marginLeft: '5%', marginRight: '5%',  }}>
         <ul className="settings-list">
